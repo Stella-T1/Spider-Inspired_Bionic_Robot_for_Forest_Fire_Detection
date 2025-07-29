@@ -44,17 +44,29 @@ The system consists of three main components:
   - DHT11 (temperature & humidity)
 - Wireless transmission via Bluetooth module
 
-### 🧠 Fire Detection Logic
-- Sensor data fusion and threshold-based anomaly detection
-- Alarm triggering system (buzzer)
+## 🔬 Methodology
+
+1. **Biological Analysis**: Study of spider locomotion mechanisms to inform robotic kinematics.
+2. **Mechanical CAD Modeling**: Design and 3D print chassis and limbs.
+3. **Electronic Integration**: Assemble sensing circuit, configure microcontroller I/O.
+4. **Control & Sensing Code**: Arduino-based fire detection logic using analog sensor data.
+5. **Validation**: Run tests in forest-like conditions and benchmark detection sensitivity.
 
 ---
 
 ## 🖼️ Prototype
 
 <div align="center">
-  <img src="./assets/prototype_front.jpg" width="500" alt="Prototype front view"/>
+  <img src="./assets/prototype.jpg" width="500" alt="Prototype front view"/>
   <p>Figure: Spider-inspired robot prototype with onboard fire sensors</p>
 </div>
 
+## 🔌 Circuit Diagram
+
+<div align="center">
+  <img src="./assets/Circuit Schematic Diagram.png" width="600" alt="Circuit Diagram"/>
+  <p><em>Figure: Circuit diagram showing connection of flame, gas (MQ-2), and temperature sensors to Arduino.</em></p>
+</div>
+
 ---
+
